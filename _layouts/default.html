@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="description" content="{{page.description}}">
+    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="/assets/images/aubrey-beardsley-tree.jpg" alt="Aubrey Beardsley - Tree">
+        <h1>Wilde Guide</h1>
+        <p>A highly opinionated dandy's guide to uttermost excellence on the Web. The Wild Guide is making the World&nbsp;Wilde&nbsp;Web, one link at a time.</p>
+      </header>
+      <hr>
+      {{ content }}
+      <footer>
+        A vanitous and useless project by <a href="https://arnaudlevy.com">Arnaud Levy</a>.<br>
+        Salomé font by <a href="https://www.atipofoundry.com/">Atipo foundry</a>.
+      </footer>
+    </main>
+  </body>
+</html>

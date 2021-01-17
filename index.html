@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% assign sorted_links = site.data.links | sort: 'title' %}
+{% for link in sorted_links %}
+  <article>
+    <h2>{{ link.title }}</h2>
+    <p>{{ link.description }}</p>
+    <a href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.url }}</a>
+  </article>
+  <hr>
+{% endfor %}
