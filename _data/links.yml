@@ -13,6 +13,9 @@
 - title: MIT Media Lab
   description: Founded in 1985, the MIT Media Lab is one of the world’s leading research and academic organizations
   url: https://www.media.mit.edu
+- title: MIT Technology Review
+  description: The mission of MIT Technology Review is to make technology a greater force for good by bringing about better-informed, more conscious technology decisions through authoritative, influential, and trustworthy journalism.
+  url: https://www.technologyreview.com
 - title: Pentagram
   description: Pentagram is a multi-disciplinary, independently-owned design studio
   url: https://www.pentagram.com
@@ -22,6 +25,3 @@
 - title: Le Grand Continent
   description: Construire un débat stratégique, politique et intellectuel à l’échelle pertinente
   url: https://legrandcontinent.eu
-- title: MIT Technology Review
-  description: The mission of MIT Technology Review is to make technology a greater force for good by bringing about better-informed, more conscious technology decisions through authoritative, influential, and trustworthy journalism.
-  url: https://www.technologyreview.com
